@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.view.menu.ActionMenuItemView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:focusable="true"
+    android:textAppearance="?attr/actionMenuTextAppearance"
+    android:textColor="?attr/actionMenuTextColor"
+    style="?attr/actionButtonStyle"/>

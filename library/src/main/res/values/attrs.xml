@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AppToolbar">
+        <attr name="navigationButtonStyle" format="reference" />
+        <attr name="navigationIcon" format="reference" />
+        <attr name="showBottomDivider" format="reference|boolean" />
+        <attr name="bottomDivider" format="reference" />
+        <attr name="title"/>
+        <attr name="titleCenter" format="reference|boolean" />
+        <attr name="titleTextAppearance"/>
+        <attr name="titleTextColor"/>
+    </declare-styleable>
+</resources>

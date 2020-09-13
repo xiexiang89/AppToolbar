@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.App.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="titleTextAppearance">@style/Widget.App.Toolbar.Title</item>
+    </style>
+
+    <style name="Widget.App.ActionButton" parent="Widget.AppCompat.ActionButton">
+        <item name="android:minWidth">30dp</item>
+        <item name="android:minHeight">30dp</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">8dp</item>
+    </style>
+
+    <style name="Widget.App.Toolbar.Button.Navigation" parent="Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="android:background">@drawable/app_control_background</item>
+        <item name="android:minWidth">24dp</item>
+    </style>
+    <style name="Widget.App.Toolbar.Title" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>
